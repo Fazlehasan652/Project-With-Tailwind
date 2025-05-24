@@ -1,0 +1,18 @@
+@import "tailwindcss";
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.fontFamily {
+  font-family: "Port Lligat Slab", serif;
+}
+.sm-nav {
+  @apply bg-white text-[#0B5D1E] h-auto my-10 text-center flex flex-col justify-center items-center md:flex-row md:justify-between  md:my-12  md:rounded-full md:h-14 lg:h-20 lg:mx-16;
+}
+
+.ul-md-lg-xl {
+  @apply md:flex-row md:gap-5 md:text-sm lg:space-x-10 lg:text-xl;
+}
+.nav-btn-md-lg-xl {
+  @apply bg-green-950 rounded-full p-5 my-10 text-xl text-center hover:bg-green-900 text-white max-w-96 md:w-36 md:me-3 md:text-sm md:p-2 lg:p-4;
+}
